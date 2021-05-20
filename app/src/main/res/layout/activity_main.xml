@@ -38,7 +38,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonFindDescription"
+        android:id="@+id/button_find_description"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/spinnerColors" />
 
     <Button
-        android:id="@+id/buttonOpenSecondActivity"
+        android:id="@+id/button_open_second_activity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFindDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/button_find_description" />
 
     <EditText
         android:id="@+id/editTextLogin"
@@ -95,15 +95,26 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextLogin" />
 
     <Switch
-        android:id="@+id/switchAgreement"
+        android:id="@+id/switch_agreement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="30dp"
         android:text="@string/switchAgreement"
-        android:theme="@style/MySwitchStyle"
+        android:theme="@style/Theme.MySwitchStyle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_agreement_compact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/switchAgreement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        />
 
     <CheckBox
         android:id="@+id/enabledOnOff"
@@ -111,10 +122,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
-        android:text="On"
+        android:text="@string/touch_on"
         android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/switchAgreement" />
+        app:layout_constraintTop_toBottomOf="@+id/switch_agreement" />
 
     <ToggleButton
         android:id="@+id/toggleOnOff"
@@ -122,7 +133,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
-        android:text="On"
+        android:text="@string/touch_on"
         android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enabledOnOff" />

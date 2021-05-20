@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         spinnerColors = findViewById(R.id.spinnerColors);
         textViewDescriptionTemp = findViewById(R.id.textViewDescriptionTemp);
 
-        Button button = findViewById(R.id.buttonOpenSecondActivity);
+        Button button = findViewById(R.id.button_open_second_activity);
         button.setOnClickListener(this);
 
     }
