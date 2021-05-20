@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">les01</string>
+    <string name="hi_text">Мое первое приложение</string>
+    <string name="sign_name">Дмитрий Шульга</string>
+    <string name="button_find_description">Определить цвет</string>
+</resources>

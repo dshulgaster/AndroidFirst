@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">les01</string>
+    <string name="hi_text">My first App</string>
+    <string name="hi_text_second" translatable="false">Second activity</string>
+    <string name="sign_name">Dmitry Shulga</string>
+    <string name="login" translatable="false">login</string>
+    <string name="password" translatable="false">password</string>
+    <string name="switchAgreement" translatable="false">Agreement</string>
+    <string name="button_find_description">Determine the color</string>
+    <string name="button_open_second_activity" translatable="false">Open second activity</string>
+
+    <string-array name="colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="description_of_temp">
+        <item>Напоминает кровь...</item>
+        <item>Как небо...</item>
+        <item>Крокодил такого цвета, да и ели...</item>
+        <item>Уточки кря-кря...</item>
+    </string-array>
 </resources>
